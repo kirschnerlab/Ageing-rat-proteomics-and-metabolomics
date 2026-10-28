@@ -263,3 +263,7 @@ Files were renamed to describe their content. The tables below give the original
 | `data/intermediate/figure4f_lower_kim1_shares.csv` | `fig4f_shared_vs_divergent.csv` |  |
 | `data/intermediate/figure5g_axes_by_rat.csv` | `fig5d_axes_by_rat.csv` |  |
 | `data/intermediate/figure5h_metabolite_axis_loadings.csv` | `fig5e_metabolome_axis_loadings.csv` |  |
+
+## License
+
+The code, data and outputs in this repository are released under the Creative Commons Attribution 4.0 International license (CC BY 4.0). See `LICENSE` for the full text. If you use them, please cite the manuscript.
