@@ -1,0 +1,14 @@
+{
+  "python": "3.12.7",
+  "pandas": "2.2.2",
+  "numpy": "1.26.4",
+  "n_features": 269,
+  "n_samples": 32,
+  "missing": 0,
+  "nonpositive": 0,
+  "collaborator_tags": {
+    "A": 149,
+    "B": 120
+  },
+  "sample_mapping_status": "Unresolved; no cross-modal correlations or elastic net allowed yet"
+}

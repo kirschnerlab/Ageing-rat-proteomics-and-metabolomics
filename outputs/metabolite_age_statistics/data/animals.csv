@@ -1,0 +1,33 @@
+sample_id,sample_number,source_sample_label,age_months,metabolomics_sample_id,biological_animal_label,alias_note,normalization_policy,in_proteomics,in_nori,included_matched,reason
+M41,1,M41,25,kidney01,M41,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+M77,2,M77,25,kidney02,M77,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+M107,3,M107,25,kidney03,M107,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+M114,4,M114,25,kidney04,M114,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+M40,5,M40,25,kidney05,M40,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+M56,6,M56,25,kidney06,M56,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+M61,7,M61,25,kidney07,M61,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+M25,8,M38 (M25),25,kidney08,M38,"Biological M38, proteomics tube ID M25; documented pre-existing alias",Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+P59,9,P59,21,kidney09,P59,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+P60,10,P60,21,kidney10,P60,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+P64,11,P64,21,kidney11,P64,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+P70,12,P70,21,kidney12,P70,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+P69,13,P69,21,kidney13,P69,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+P67,14,P67,21,kidney14,P67,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+P74,15,P74,21,kidney15,P74,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+P75,16,P75,21,kidney16,P75,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+O18,17,O18,18,kidney17,O18,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+O19,18,O19,18,kidney18,O19,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+O20,19,O20,18,kidney19,O20,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+O22,20,O22 (O27),18,kidney20,O27,Existing source alias O22/O27; retain canonical matrix key O22,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+O23,21,O23,18,kidney21,O23,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+O24,22,O24,18,kidney22,O24,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+O17,23,O17,18,kidney23,O17,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+O21,24,O21,18,kidney24,O21,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+N146,25,N146,9,kidney25,N146,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,False,False,False,N146 absent from current proteomics/NoRI analysis cohort
+N147,26,N147,9,kidney26,N147,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+N148,27,N148,9,kidney27,N148,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+N149,28,N149,9,kidney28,N149,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+N151,29,N151,9,kidney29,N151,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+N152,30,N152,9,kidney30,N152,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+N153,31,N153,9,kidney31,N153,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records
+N154,32,N154,9,kidney32,N154,No alias needed,Equal material input per user; supplied weights/volumes used before lysis; no extra division,True,True,True,Matched same-animal records

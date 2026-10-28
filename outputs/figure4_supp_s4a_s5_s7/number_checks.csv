@@ -1,0 +1,172 @@
+figure,panel,quantity,value,kind,source
+4,c,CYP2C11 gene-unique sequences,11.0,count,13 peptide forms summed (linear)
+4,c,"CYP2C11 gene-unique 25-month mean vs 9-month mean (display, unadjusted log2)",-3.29601320157646,effect,
+4,c,male-specific PT program members mapped,159.0,count,
+4,a,"complete records, this study",11485.0,count,dataset row count
+4,a,rat TFs genes,536.0,count,transcription_factor_counts_by_study.csv
+S,a,q<0.01 gene representatives,956.0,count,age-only OLS HC3; BH across all records
+S,a,higher >1.5-fold,401.0,count,
+S,a,lower >1.5-fold,82.0,count,
+S,a,gene representatives,11040.0,count,one record per gene
+S,b,protein-RNA r,0.6990750709894112,r,age-only protein effects vs RNA table
+S,b,shared genes,9580.0,count,
+4,c,"clock error, mean absolute (months)",1.5657576445021044,months,"nested clock, top 5 re-selected per left-out rat"
+4,c,"clock r, predicted vs actual age",0.9331639059136942,r,
+4,c,error when guessing the mean age (months),4.748387096774194,months,
+4,d,clocks using HS3ST3A/B,31.0,count,top 5 of the fold-contained ranking
+4,d,clocks using TIMP3,31.0,count,top 5 of the fold-contained ranking
+4,d,clocks using NID1,29.0,count,top 5 of the fold-contained ranking
+4,d,clocks using MMP19,19.0,count,top 5 of the fold-contained ranking
+4,d,clocks using AGRN,19.0,count,top 5 of the fold-contained ranking
+4,d,clocks using STK35,11.0,count,top 5 of the fold-contained ranking
+4,d,clocks using RNASET2,9.0,count,top 5 of the fold-contained ranking
+4,d,distinct proteins used across 31 clocks,12.0,count,
+4,e,HS3ST3A/B older rats above the 9-month maximum,24.0,count,of 24
+4,e,HS3ST3A/B 25 vs 9 months (log2),1.259515869415775,effect,age-only OLS
+4,e,TIMP3 older rats above the 9-month maximum,24.0,count,of 24
+4,e,TIMP3 25 vs 9 months (log2),0.45448688114513247,effect,age-only OLS
+4,e,NID1 older rats above the 9-month maximum,24.0,count,of 24
+4,e,NID1 25 vs 9 months (log2),0.5176312472683334,effect,age-only OLS
+4,e,MMP19 older rats above the 9-month maximum,24.0,count,of 24
+4,e,MMP19 25 vs 9 months (log2),1.2453859589082046,effect,age-only OLS
+S,c,NMN 25v9 log2,-1.3972450278586273,effect,metabolite age statistics
+S,c,NAD$^+$ 25v9 log2,-0.6910704361417985,effect,metabolite age statistics
+S,c,ADP-ribose 25v9 log2,1.0668106225738718,effect,metabolite age statistics
+S,c,Pyridoxal 5′-phosphate 25v9 log2,-1.098418966642523,effect,metabolite age statistics
+S,c,Pantothenate 25v9 log2,-0.8502234734363867,effect,metabolite age statistics
+S,c,Creatine 25v9 log2,-0.9555625107570408,effect,metabolite age statistics
+S,c,Alanine 25v9 log2,-0.6956015274300853,effect,metabolite age statistics
+S,c,Asparagine 25v9 log2,-0.7036216000878674,effect,metabolite age statistics
+S,c,γ-Glutamyl-glutamate 25v9 log2,-0.6267110603716688,effect,metabolite age statistics
+S,c,N6-Acetyl-lysine 25v9 log2,-0.8187631340897461,effect,metabolite age statistics
+S,c,Neu5Ac 25v9 log2,1.13698563960709,effect,metabolite age statistics
+S,c,Taurochenodeoxycholate 25v9 log2,1.760838012482118,effect,metabolite age statistics
+S,c,Glycocholate 25v9 log2,1.6334287928626523,effect,metabolite age statistics
+4,f,HS3ST3A/B: share in lower-KIM-1 old kidneys,0.9870458142054856,share,figure4f_lower_kim1_shares.py
+4,f,TIMP3: share in lower-KIM-1 old kidneys,1.261248660149784,share,figure4f_lower_kim1_shares.py
+4,f,NID1: share in lower-KIM-1 old kidneys,0.922932107764995,share,figure4f_lower_kim1_shares.py
+4,f,MMP19: share in lower-KIM-1 old kidneys,0.8728991812203943,share,figure4f_lower_kim1_shares.py
+4,f,Collagen IV α3–α5: share in lower-KIM-1 old kidneys,0.8150581131662736,share,figure4f_lower_kim1_shares.py
+4,f,CYP2C11: share in lower-KIM-1 old kidneys,0.7749193983215146,share,figure4f_lower_kim1_shares.py
+4,f,Terminal complement: share in lower-KIM-1 old kidneys,0.6920355586935513,share,figure4f_lower_kim1_shares.py
+4,f,CD45: share in lower-KIM-1 old kidneys,0.3579694375902773,share,figure4f_lower_kim1_shares.py
+4,f,CD38: share in lower-KIM-1 old kidneys,0.2892218714159276,share,figure4f_lower_kim1_shares.py
+4,f,Proximal tubule: share in lower-KIM-1 old kidneys,0.2438525892506244,share,figure4f_lower_kim1_shares.py
+4,f,OXPHOS: share in lower-KIM-1 old kidneys,0.3679745034102993,share,figure4f_lower_kim1_shares.py
+4,f,Taurochenodeoxycholate: share in lower-KIM-1 old kidneys,1.132029067155532,share,figure4f_lower_kim1_shares.py
+4,f,Creatine: share in lower-KIM-1 old kidneys,0.9472695404021892,share,figure4f_lower_kim1_shares.py
+4,f,Alanine: share in lower-KIM-1 old kidneys,0.9117386149239856,share,figure4f_lower_kim1_shares.py
+4,f,Pantothenate: share in lower-KIM-1 old kidneys,0.7060178963534265,share,figure4f_lower_kim1_shares.py
+4,f,Pyridoxal 5′-phosphate: share in lower-KIM-1 old kidneys,0.6220147986113587,share,figure4f_lower_kim1_shares.py
+4,f,Neu5Ac: share in lower-KIM-1 old kidneys,0.6238742210053851,share,figure4f_lower_kim1_shares.py
+4,f,NMN: share in lower-KIM-1 old kidneys,0.5542329988034111,share,figure4f_lower_kim1_shares.py
+4,f,ADP-ribose: share in lower-KIM-1 old kidneys,0.5091523281811867,share,figure4f_lower_kim1_shares.py
+5,a,STATE PC1 variance fraction,0.35681072324590224,frac,age-mean residual PCA
+5,a,25/9 within-age SD ratio,3.1292599422308442,ratio,
+5,a,STATE PC1 vs chemistry r^2 (check only),0.022084189661549018,frac,p = 0.425
+5,b,OAT1 full-component r,-0.7546813893240583,r,
+5,b,SLC34A1 full-component r,-0.7783140976245688,r,
+5,b,OAT3 full-component r,-0.5848534902785416,r,
+5,b,KIM-1 full-component r,0.7206903080508156,r,
+5,b,CD38 full-component r,0.9170108035873038,r,
+5,b,CD45 full-component r,0.9293897906146743,r,
+5,c,AGE-STATE Pearson,0.5812346524664315,r,
+5,c,AGE-STATE Spearman,0.7555573461843754,r,
+5,c,same-sign age-changing records,957.0,count,
+5,c,age-changing records q<0.01,994.0,count,
+5,d,metabolome PC1 vs proteome STATE r,0.7016833722459891,r,n = 30
+5,d,within-age permutation p,0.0011,p,"9,999 permutations"
+5,d,metabolome residual PC1 variance fraction,0.21989648471241885,frac,unchanged
+5,d,Spearman within 9 months,-0.1785714285714286,r,
+5,d,Spearman within 18 months,0.261904761904762,r,
+5,d,Spearman within 21 months,0.8214285714285715,r,
+5,d,Spearman within 25 months,0.8095238095238096,r,
+5,d,"metabolome axis vs STATE r, H animals only (check)",0.7684967728042491,r,n = 16
+5,d,"metabolome axis vs STATE r, D animals only (check)",0.8071177884149063,r,n = 14
+5,d,"leave-one-rat-out r, minimum",0.6505127771257464,r,
+5,e,NAD+ (peaks summed) r with metabolome axis,-0.8787914634661235,r,
+5,e,L(-)-Carnitine r with metabolome axis,-0.8322531675769334,r,
+5,e,Cytidine 5'-monophosphate (hydrate) r with metabolome axis,-0.8230826503592288,r,
+5,e,Taurine r with metabolome axis,-0.8187608660443986,r,
+5,e,1-Methylhistidine r with metabolome axis,-0.7674485309145185,r,
+5,e,Guanine r with metabolome axis,-0.766305726265067,r,
+5,e,L-Ergothioneine r with metabolome axis,-0.7640816137422328,r,
+5,e,Pyridoxal 5'-phosphate r with metabolome axis,-0.7578166082225569,r,
+5,e,Creatinine r with metabolome axis,0.6815072232132532,r,
+5,e,N-Isovalerylglycine; peak2 (indistinguishable MS2) r with metabolome axis,0.742640717888984,r,
+5,e,Ferulic acid r with metabolome axis,0.753663913674627,r,
+5,e,Acetamidobenzoic acid r with metabolome axis,0.7586266681910947,r,
+5,e,3-Acetamidophenol r with metabolome axis,0.7649130981071703,r,
+5,e,7-Methylguanine r with metabolome axis,0.7823389073192206,r,
+5,e,Phenol r with metabolome axis,0.801224579630821,r,
+5,e,DL-4-Hydroxyphenyllactic acid r with metabolome axis,0.8408881005174444,r,
+5,f,Indoxyl sulfate (log2) vs OAT1 protein (log2) Spearman,-0.7005561735261402,r,
+5,f,Indoxyl sulfate (log2) vs OAT1 protein (log2) age-adjusted rank r,-0.7262178239445181,r,
+5,f,Indoxyl sulfate (log2) vs OAT1 protein (log2) age-adjusted p,5.549492889683966e-06,p,
+5,f,"Indoxyl sulfate (log2) vs OAT1 protein (log2) age-adjusted rank r, H animals only (check)",-0.5996904303807924,r,
+5,f,"Indoxyl sulfate (log2) vs OAT1 protein (log2) age-adjusted rank r, D animals only (check)",-0.7302736561010537,r,
+5,g,Neu5Ac (log2) vs KIM-1 protein (log2) Spearman,0.9114571746384873,r,
+5,g,Neu5Ac (log2) vs KIM-1 protein (log2) age-adjusted rank r,0.8373624290722195,r,
+5,g,Neu5Ac (log2) vs KIM-1 protein (log2) age-adjusted p,7.969158191075976e-09,p,
+5,g,"Neu5Ac (log2) vs KIM-1 protein (log2) age-adjusted rank r, H animals only (check)",0.8862260299793178,r,
+5,g,"Neu5Ac (log2) vs KIM-1 protein (log2) age-adjusted rank r, D animals only (check)",0.817784849571992,r,
+5,h,CD38 protein (log2) vs CD45 protein (log2) Spearman,0.9141129032258065,r,
+5,h,CD38 protein (log2) vs CD45 protein (log2) age-adjusted rank r,0.8895696212809201,r,
+5,h,CD38 protein (log2) vs CD45 protein (log2) age-adjusted p,2.219423907513137e-11,p,
+5,h,"CD38 protein (log2) vs CD45 protein (log2) age-adjusted rank r, H animals only (check)",0.8511149562230687,r,
+5,h,"CD38 protein (log2) vs CD45 protein (log2) age-adjusted rank r, D animals only (check)",0.953859040482018,r,
+5,i,NMN (log2) vs CD38 protein (log2) Spearman,-0.6618464961067854,r,
+5,i,NMN (log2) vs CD38 protein (log2) age-adjusted rank r,-0.551567469752978,r,
+5,i,NMN (log2) vs CD38 protein (log2) age-adjusted p,0.0015805826163919194,p,
+5,i,"NMN (log2) vs CD38 protein (log2) age-adjusted rank r, H animals only (check)",-0.34843271001929493,r,
+5,i,"NMN (log2) vs CD38 protein (log2) age-adjusted rank r, D animals only (check)",-0.5855650067956227,r,
+5,f,Indoxyl sulfate vs OAT3 Spearman,-0.7330367074527252,r,
+5,f,Indoxyl sulfate vs OAT3 age-adjusted rank r,-0.7478520427372094,r,
+5,f,"Indoxyl sulfate vs OAT3 age-adjusted rank r, H animals only (check)",-0.6022010889250005,r,
+5,f,"Indoxyl sulfate vs OAT3 age-adjusted rank r, D animals only (check)",-0.664977967428346,r,
+5,i,ADP-ribose vs CD38 Spearman,0.6867630700778643,r,
+5,i,ADP-ribose vs CD38 age-adjusted rank r,0.5256164290891023,r,
+5,i,"ADP-ribose vs CD38 age-adjusted rank r, H animals only (check)",0.39232155396491103,r,
+5,i,"ADP-ribose vs CD38 age-adjusted rank r, D animals only (check)",0.5966045187391603,r,
+6,a,plasma-derived / circulating: % departing >=0.5 (up/down),66.66666666666667,pct,n = 12
+6,a,plasma-derived / circulating: % departing >=1 (up/down),41.66666666666666,pct,n = 12
+6,a,secreted: % departing >=0.5 (up/down),16.577540106951872,pct,n = 374
+6,a,secreted: % departing >=1 (up/down),4.81283422459893,pct,n = 374
+6,a,extracellular matrix: % departing >=0.5 (up/down),16.883116883116884,pct,n = 154
+6,a,extracellular matrix: % departing >=1 (up/down),3.2467532467532463,pct,n = 154
+6,a,transmembrane / cell-surface: % departing >=0.5 (up/down),3.6878216123499143,pct,n = 2332
+6,a,transmembrane / cell-surface: % departing >=1 (up/down),0.6432246998284734,pct,n = 2332
+6,a,intracellular / unclassified: % departing >=0.5 (up/down),2.355396541443053,pct,n = 6708
+6,a,intracellular / unclassified: % departing >=1 (up/down),0.5217650566487776,pct,n = 6708
+6,b,C5 protein 25v9 log2,1.9034454906040974,effect,
+6,b,C6 protein 25v9 log2,2.090916301950026,effect,
+6,b,C8A protein 25v9 log2,1.8887453556242226,effect,
+6,b,C8B protein 25v9 log2,1.903277121451242,effect,
+6,b,C8G protein 25v9 log2,1.7522359512644323,effect,
+6,b,C9 protein 25v9 log2,2.4328467917080747,effect,
+6,b,terminal complement mean 25v9 log2,1.9952445021003493,effect,
+6,c,excess over plasma comparator log2,1.3705197739232475,effect,16 of 16 plasma markers found
+6,c,excess CI low,0.9112991522561578,effect,
+6,c,excess CI high,1.8297403955903373,effect,
+6,c,excess over albumin log2,0.8738755826926967,effect,
+6,c,excess over C3 log2,1.106703934479202,effect,
+6,d,upstream sequences / forms,18.0,count,30 forms; 0 shared sequences not gene-unique
+6,d,C-terminal sequences / forms,3.0,count,5 forms; 0 shared sequences not gene-unique
+6,f,upstream region log2,1.4275870542779212,effect,
+6,f,C-terminal region log2,-0.10617902998734548,effect,
+6,f,upstream - C-terminal log2,1.5337660842652667,effect,
+6,f,upstream - C-terminal CI low,0.6435560239365326,effect,
+6,f,upstream - C-terminal CI high,2.423976144594001,effect,
+6,f,upstream - C-terminal q,0.004476444435087206,q,BH within outcome over 3 contrasts
+6,f,upstream - TAL log2,1.535823013126881,effect,
+6,f,TAL composite log2,-0.10823595884895976,effect,
+6,g,COL4A3 fold 25v9,2.5506115731281436,fold,
+6,g,COL4A4 fold 25v9,1.9027873722585185,fold,
+6,g,COL4A5 fold 25v9,2.601461145966612,fold,
+6,g,LAMA5 fold 25v9,1.2832242939606,fold,
+6,g,LAMB2 fold 25v9,1.2839389217459494,fold,
+6,g,LAMC1 fold 25v9,1.3170122706200909,fold,
+6,g,NID1 fold 25v9,1.4316027768829962,fold,
+6,g,COL4A3/4/5 composite fold,2.3285414695896645,fold,
+6,g,NID2 log2 (q),-0.04601968941115022,effect,q = 0.556
+6,g,recovered fibrillar ECM composite log2,0.18793635250122168,effect,p = 0.198

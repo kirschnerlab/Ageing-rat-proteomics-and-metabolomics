@@ -1,0 +1,36 @@
+series,channel,reporter_mz,role,sample_id,age_months,preparation_batch,tag_topology,placeholder_group,bridge_pool_composition,randomization_seed,notes,tag,label
+H,TMTpro-126,126.127726,pooled_reference,MASTER_BRIDGE_H1,,31-sample pool,N-like,Bridge,Equal peptide mass from each of the 31 usable rat digests; N146 excluded,20260831,Independent labeling aliquot from one common master bridge pool,126,MASTER_BRIDGE_H1
+H,TMTpro-127N,127.124761,biological_sample,N153,9.0,Batch 1,N-like,Age4_depleted,,20260831,,127n,N153_9mo
+H,TMTpro-127C,127.131081,biological_sample,P60,21.0,Batch 1,C-like,Age2,,20260831,,127c,P60_21mo
+H,TMTpro-128N,128.128116,biological_sample,N154,9.0,Batch 2,N-like,Age4_depleted,,20260831,,128n,N154_9mo
+H,TMTpro-128C,128.134436,biological_sample,P67,21.0,Batch 2,C-like,Age2,,20260831,,128c,P67_21mo
+H,TMTpro-129N,129.131471,biological_sample,M25,25.0,Batch 2,N-like,Age3,,20260831,,129n,M25_25mo
+H,TMTpro-129C,129.13779,biological_sample,O21,18.0,Batch 2,C-like,Age1,,20260831,,129c,O21_18mo
+H,TMTpro-130N,130.134825,biological_sample,M61,25.0,Batch 1,N-like,Age3,,20260831,,130n,M61_25mo
+H,TMTpro-130C,130.141145,biological_sample,O18,18.0,Batch 1,C-like,Age1,,20260831,,130c,O18_18mo
+H,TMTpro-131N,131.13818,biological_sample,O23,18.0,Batch 1,N-like,Age1,,20260831,,131,O23_18mo
+H,TMTpro-131C,131.1445,biological_sample,M77,25.0,Batch 2,C-like,Age3,,20260831,,131c,M77_25mo
+H,TMTpro-132N,132.141535,biological_sample,O22,18.0,Batch 2,N-like,Age1,,20260831,,132n,O22_18mo
+H,TMTpro-132C,132.147855,biological_sample,M40,25.0,Batch 1,C-like,Age3,,20260831,,132c,M40_25mo
+H,TMTpro-133N,133.14489,biological_sample,P75,21.0,Batch 2,N-like,Age2,,20260831,,133n,P75_21mo
+H,TMTpro-133C,133.15121,biological_sample,N151,9.0,Batch 1,C-like,Age4_depleted,,20260831,,133c,N151_9mo
+H,TMTpro-134N,134.148245,biological_sample,P74,21.0,Batch 1,N-like,Age2,,20260831,,134n,P74_21mo
+H,TMTpro-134C,134.154565,biological_sample,N147,9.0,Batch 2,C-like,Age4_depleted,,20260831,,134c,N147_9mo
+H,TMTpro-135N,135.1516,pooled_reference,MASTER_BRIDGE_H2,,31-sample pool,N-like,Bridge,Equal peptide mass from each of the 31 usable rat digests; N146 excluded,20260831,Independent labeling aliquot from one common master bridge pool,135,MASTER_BRIDGE_H2
+D,TMTpro-127D,127.1340064,pooled_reference,MASTER_BRIDGE_D1,,31-sample pool,N-like,Bridge,Equal peptide mass from each of the 31 usable rat digests; N146 excluded,20260831,Independent labeling aliquot from one common master bridge pool,127CD,MASTER_BRIDGE_D1
+D,TMTpro-128ND,128.1310414,biological_sample,N148,9.0,Batch 1,N-like,Age4_depleted,,20260831,,128ND,N148_9mo
+D,TMTpro-128CD,128.1373614,biological_sample,P70,21.0,Batch 2,C-like,Age2,,20260831,,128CD,P70_21mo
+D,TMTpro-129ND,129.1343964,biological_sample,N152,9.0,Batch 2,N-like,Age4_depleted,,20260831,,129ND,N152_9mo
+D,TMTpro-129CD,129.1407154,biological_sample,P64,21.0,Batch 1,C-like,Age2,,20260831,,129CD,P64_21mo
+D,TMTpro-130ND,130.1377504,biological_sample,M114,25.0,Batch 1,N-like,Age3,,20260831,,130ND,M114_25mo
+D,TMTpro-130CD,130.1440704,biological_sample,O19,18.0,Batch 1,C-like,Age1,,20260831,,130CD,O19_18mo
+D,TMTpro-131ND,131.1411054,biological_sample,M107,25.0,Batch 2,N-like,Age3,,20260831,,131ND,M107_25mo
+D,TMTpro-131CD,131.1474254,biological_sample,O17,18.0,Batch 2,C-like,Age1,,20260831,,131CD,O17_18mo
+D,TMTpro-132ND,132.1444604,biological_sample,O20,18.0,Batch 2,N-like,Age1,,20260831,,132ND,O20_18mo
+D,TMTpro-132CD,132.1507804,biological_sample,M56,25.0,Batch 2,C-like,Age3,,20260831,,132CD,M56_25mo
+D,TMTpro-133ND,133.1478154,biological_sample,O24,18.0,Batch 1,N-like,Age1,,20260831,,133ND,O24_18mo
+D,TMTpro-133CD,133.1541354,biological_sample,M41,25.0,Batch 1,C-like,Age3,,20260831,,133CD,M41_25mo
+D,TMTpro-134ND,134.1511704,biological_sample,P59,21.0,Batch 1,N-like,Age2,,20260831,,134ND,P59_21mo
+D,TMTpro-134CD,134.1574904,biological_sample,N149,9.0,Batch 1,C-like,Age4_depleted,,20260831,,134CD,N149_9mo
+D,TMTpro-135ND,135.1545254,biological_sample,P69,21.0,Batch 2,N-like,Age2,,20260831,,135ND,P69_21mo
+D,TMTpro-135CD,135.1608452,pooled_reference,MASTER_BRIDGE_D2,,31-sample pool,C-like,Bridge,Equal peptide mass from each of the 31 usable rat digests; N146 excluded,20260831,Independent labeling aliquot from one common master bridge pool,135CD,MASTER_BRIDGE_D2

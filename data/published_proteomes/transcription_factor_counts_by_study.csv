@@ -1,0 +1,6 @@
+dataset,protein_rows_complete,distinct_genes_complete,TF_rows,TF_genes,kinase_rows,kinase_genes,receptor_rows,receptor_genes,ligand_rows,ligand_genes
+"This study (rat kidney, 23 fractions)",11485,10922,551,536,374,357,351,336,80,79
+Keele 2025 (Astral TMT-MS2),9058,8794,322,317,298,289,223,222,40,40
+Keele 2023 (TMT-MS3),5167,5092,106,106,131,130,82,82,21,21
+Wang 2025 (DIA),5697,5585,89,87,147,148,114,111,18,18
+Takasugi 2024 (WTL),5165,5239,82,85,146,146,90,90,15,15

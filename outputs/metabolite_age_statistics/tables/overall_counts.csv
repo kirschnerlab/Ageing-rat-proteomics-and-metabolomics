@@ -1,0 +1,5 @@
+cohort,n_animals,n_features,omnibus_HC3_q05,omnibus_KW_q05,omnibus_HC3_and_KW_q05,omnibus_HC3_q05_and_1p5fold_age_mean_span,omnibus_HC3_q05_monotonic_four_means,any_young_contrast_joint807_q05
+all32,32,269,78,53,50,66,15,79
+matched31,31,269,70,42,41,59,15,65
+without_P64_31,31,269,71,43,41,56,18,85
+matched_without_P64_30,30,269,73,32,31,57,19,75

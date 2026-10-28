@@ -1,0 +1,43 @@
+{
+  "n_records": 11485,
+  "n_rats": 31,
+  "pc1_variance_fraction": 0.3568,
+  "A_B rows": {
+    "Higher in remodeled kidneys": [
+      "EML3",
+      "MYO9B",
+      "APAF1",
+      "TCERG1",
+      "NFKB1"
+    ],
+    "Lower in remodeled kidneys": [
+      "TMEM70",
+      "GLRX5",
+      "NDUFA3",
+      "GCHFR",
+      "SLC1A1"
+    ],
+    "Change with age only": [
+      "HS3ST3A1",
+      "RNASET2",
+      "C10H17ORF58",
+      "NTN1",
+      "LECT2"
+    ]
+  },
+  "C HS3ST3A/B": {
+    "25 vs 9 (log2)": 1.26,
+    "SD within 25-month rats": 0.106,
+    "r with score": 0.077
+  },
+  "C KIM-1": {
+    "25 vs 9 (log2)": 3.082,
+    "SD within 25-month rats": 1.407,
+    "r with score": 0.721
+  },
+  "D share |r| >= 0.5": 0.556,
+  "E CD45 r": 0.929,
+  "E KIM-1 r": 0.721,
+  "E NaPi-IIa r": -0.778,
+  "E OAT1 r": -0.755
+}

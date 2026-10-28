@@ -1,0 +1,20 @@
+script,original_script_name,figures,changes_from_original
+paths.py,(new),all,"Every input and output location, relative to this folder"
+run_all.py,(new),all,Runs the scripts in order
+scripts/shared/style.py,style.py,"Fig 4F table, Fig 5, S3, S4, S6, S9, S11",Docstring only
+scripts/shared/loaders.py,common67.py,via omics_data.py; S9,Paths from paths.py; functions not used by these figures removed
+scripts/shared/omics_data.py,data.py,"Fig 4F table, Fig 5, S3, S4, S6, S9",Paths from paths.py; alternative-dataset mode and an unused NoRI table load removed
+scripts/shared/pt_rna_plotting.py,evidence.py,"S8, S10",Only the helpers and tables used by S8 and S10 kept; paths from paths.py
+scripts/preprocessing/metabolomics_export_to_table.py,prepare_metabolomics.py,metabolomics input,Paths from paths.py; input checksum list limited to the export; output names
+scripts/preprocessing/metabolite_age_statistics.py,analyze_age.py,"Fig 4, Fig 5, S4 (metabolite statistics)",Paths from paths.py; output names
+scripts/figure4/protein_clock.py,01_run_nested_models.py,Fig 4C-E,Paths from paths.py; manifest paths relative; output names
+scripts/figure4/figure4_supp_s4a_s5_s7.py,build_figs_v71.py,"Fig 4A-F, S4A, S5, S7; tables for Fig 5C, 5G, 5H",Paths from paths.py; alternative-dataset mode removed; output and function names; three label strings in number_checks.csv
+scripts/figure4/figure4f_lower_kim1_shares.py,11_shared_vs_divergent.py,Fig 4F data,Paths from paths.py; output name
+scripts/figure5/figure5_remodeling_axis.py,fig5_remodeling_axis_v8.py,Fig 5A-H,Paths from paths.py; output names
+scripts/supplementary/s3_program_heatmaps.py,supp_peptides_programs.py,S3,Paths from paths.py; output names
+scripts/supplementary/s4_metabolite_changes.py,supp_metabolites_v8.py,"S4 (panel B, and A+B layout)",Paths from paths.py; output names
+scripts/supplementary/s6_protein_rna_trajectories.py,supp_trajectories.py,S6,Paths from paths.py; output names
+scripts/supplementary/s8_proximal_tubule_identity.py,figures.py (function figure4 and its setup),S8,Extracted from a larger figure module; drawing code unchanged; paths from paths.py; output name
+scripts/supplementary/s9_remodeling_score_method.py,supp_remodeling_score.py,S9,Paths from paths.py; output names
+scripts/supplementary/s10_rna_score_robustness.py,supplement_v9.py (function supp8) with setup from figures.py,S10,Extracted from a larger figure module; drawing code unchanged; paths from paths.py; output name
+scripts/supplementary/s11_study_design_blood_signal.py,supp_study_balance.py,S11,Paths from paths.py; output names

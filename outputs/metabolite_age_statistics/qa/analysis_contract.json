@@ -1,0 +1,50 @@
+{
+  "n_animals": 32,
+  "age_counts": {
+    "9": 8,
+    "18": 8,
+    "21": 8,
+    "25": 8
+  },
+  "feature_count": 269,
+  "primary_cohort": "all32; N146 included because standalone metabolomics is available",
+  "input_policy": "Exported median-normalized peak areas, log2 once; no additional weight/volume or sample normalization",
+  "primary_endpoint": "25-vs-9 month mean log2 difference; categorical-age HC3 t(n-4); BH269",
+  "coequal_endpoint_sensitivity": "Welch unequal-variance t on 8 old and 8 young animals; BH269",
+  "omnibus": "HC3 Wald/F(3,n-4) four-age test, BH269; Kruskal-Wallis BH269 sensitivity",
+  "secondary_contrasts": "18/21/25 versus9; BH across all807 contrast-feature tests",
+  "magnitude_thresholds": [
+    1.25,
+    1.5,
+    2
+  ],
+  "meaningful_wording": "FDR-supported differences with an estimated >=1.5fold magnitude; not an FDR guarantee for a minimum-effect null",
+  "permutation_sensitivity": {
+    "statistic": "absolute endpoint difference of log2 means",
+    "n_assignments": 12870,
+    "label_exchangeability_required": true,
+    "resolution": 0.0001554001554001554
+  },
+  "PCA_explained_variance_ratio": [
+    0.19260117010071687,
+    0.14144472733749025,
+    0.12238139406103275,
+    0.07523843161030738,
+    0.06061467326482561
+  ],
+  "technical_limits": "No acquisition sequence, pooled-QC, blanks or normalization factors supplied. Source sample labels are age-blocked; actual run-order confounding unknown.",
+  "identity_limits": "269 feature rows, not independent standard-confirmed compounds; split peaks retained; A/MS2 is not authentic-standard confirmation",
+  "versions": {
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scipy": "1.13.1",
+    "statsmodels": "0.14.2",
+    "sklearn": "1.5.1"
+  },
+  "input_sha256": {
+    "data/metabolomics/metabolite_features.csv": "7637c39bb86c4386bb852e91bef829e69ebed1d7589669bab26c907fa5f9cb97",
+    "data/metabolomics/sample_key.csv": "178fed8c4219c5409afd6c2c44e32308ef7e6033b5e9a1fe1e516d5a9f2d6659",
+    "data/metabolomics/metabolite_log2_by_sample.csv": "42946044a43efac54b94ba541bd25bc4f2f0d5bd1ca6008625b85e6257dc1eaf"
+  }
+}
