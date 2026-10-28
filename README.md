@@ -1,12 +1,7 @@
 # Rat kidney aging (NORIGAMI): code and data for the proteomics and metabolomics figures
 
-This folder holds the code and input data behind these figures of the manuscript:
 
-- Figure 4: the deep proteome and metabolome of the aging kidney, and a protein clock.
-- Figure 5: old kidneys diverge along a dominant injury-remodeling axis.
-- Supplementary Figures S3–S11.
-
-Everything runs from this folder. Inputs are read from `data/`, results are written to `outputs/`, and every location is defined once in `paths.py`.
+Everything runs from this folder. Inputs are read from `data/`, results are written to `outputs/`, and every location is defined once in `paths.py`. This repository was created with the assistance of Claude Mythos 5.1.
 
 ## Quick start
 
@@ -58,7 +53,7 @@ scripts_manifest.csv          every script: original file name, figures, changes
 
 ## Figure → script → data → output
 
-All paths are relative to this folder. Outputs are under `outputs/`.
+All paths are relative to this folder. Outputs are under `outputs/`. Figure call outs are relevant to the associated Bioarchives manuscript file for this project.
 
 | Figure, panels | Script | Main inputs | Output |
 |---|---|---|---|
